@@ -1,0 +1,52 @@
+/* Header estilizado */
+header {
+  background: #1b788a;
+  color: rgb(251, 239, 211);
+  padding: .5rem 1rem;
+  display: flex;
+  justify-content: space-between; /* Distribuye el contenido a los extremos */
+  align-items: center; /* Centra verticalmente */
+}
+
+/* Estilos para el nav que contiene el logo y el título */
+header nav {
+  display: flex;
+  align-items: center; /* Centra verticalmente el logo y el título */
+}
+
+header img {
+  margin-right: 1rem; /* Espacio entre el logo y el título */
+  width: 60px; /* Ajusta el tamaño del logo según sea necesario */
+  height: 60px;
+}
+
+/* Título dentro del header */
+header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  color: white;
+}
+
+/* Lista de navegación */
+header ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 2rem; /* Espaciado entre los elementos */
+  margin: 0;
+  text-align: right;
+}
+
+/* Estilos de los enlaces */
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para los enlaces */
+header a:hover {
+  background-color: #06304c;
+}
